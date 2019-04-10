@@ -1,0 +1,556 @@
+/*reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+
+    a img{
+        border: none;
+    }
+
+    input,button,textarea,select {
+        font-family: inherit;
+        font-size: inherit;
+    }
+
+    body{
+        font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+        font-size: 12px;
+        color: #6f737f;
+    }
+    
+
+/*header css*/
+
+.inner{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inner::after{         
+    display: block;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.header{
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.header .inner .logo{
+    float: left;
+    margin-top:30px;
+    margin-bottom: 25px;
+}
+
+.header .inner .nav{
+    float: right;   
+}
+
+.header .inner .nav ul{
+    overflow: hidden;
+
+
+}
+
+.header .inner .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 30px
+}
+
+.header .inner .nav ul .last{
+    position: relative;
+    padding-right: 0;
+}
+
+.header .inner .nav ul .last img{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+.header .inner .nav ul .last input{
+    width: 225px;
+    height: 40px;
+    margin-top: -10px;
+    border-radius: 30px;
+    border: 1px solid #c2986b;
+    outline: none;
+    padding-left: 15px;
+}
+.header .inner .nav ul .h2{
+    color: #212230;
+}
+
+.header .inner .nav ul .h2:hover {
+    color: orange;
+}
+
+
+/*banner css*/
+
+
+.banner{
+    height: 670px;
+    background: url(../images/banner.jpg) no-repeat 50% 50%;
+}
+
+.banner .inner .first{
+    font-size: 36px;
+    color: #c2986b;
+    margin-bottom: 15px;
+    padding-top: 270px;
+}
+
+.banner .inner .last{
+    font-size: 20px;
+    color: #9397a3;
+    line-height: 30px;
+}
+
+
+/* magazine css */
+
+
+.magazine{
+    overflow: hidden;
+    position: relative;
+}
+
+.magazine .top{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 50px;
+    bottom: 90px;
+}
+
+.magazine .inner img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: left;   
+}
+
+.magazine .inner span {
+    margin-top: 120px;
+    margin-left: -100px;
+    float: left;
+    width: 660px;
+    background: #ffffff;
+    font-size: 20px;
+    color: #c2986b;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.magazine .inner span .zero{
+    padding-left: 40px;
+}
+
+.magazine .inner span div{
+    border-bottom: 2px solid #c2986b;
+    width: 100px;
+    padding-top: 15px;
+    margin-bottom: 25px;
+}
+
+.magazine .inner span p{
+    display: block;
+    font-size: 12px;
+    line-height: 24px;
+    color: #6f737f;
+    margin-top: -60px;
+    padding-left: 75px;
+    padding-bottom: 20px;
+}
+
+.magazine .inner span .first{
+    display: block;
+    font-size: 60px;
+    color: #c2986b;
+    padding-left: 40px;
+}
+
+.magazine .inner span p .last{
+    display: block;
+    font-size: 60px;
+    color: #c2986b;
+    padding-left: 545px;
+    margin-top: -5px;
+}
+
+
+/* introduction css */
+
+.introduction{
+    background: #fafafa;
+    height: 500px;
+    overflow: hidden;
+}
+
+.introduction .inner ul {
+    float: left;
+}
+
+.introduction .inner ul .two{
+    padding-bottom: 90px;
+}
+
+.introduction .inner ul li {
+    float: left;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+.introduction .inner ul li .circle{
+    display: block;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduction .inner ul li div{
+    border-bottom: 2px solid #c2986b;
+    width: 100px;
+    padding-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.introduction .inner ul .one{
+    font-size: 20px;
+    color: #c2986b;
+    margin-right: 10px;
+    padding-top: 110px;
+    margin-left: -40px;
+}
+
+
+.introduction .inner ul .one .zero{
+    padding-left: 60px;
+}
+
+.introduction .inner ul .one .first{
+    display: block;
+    font-size: 60px;
+    color: #c2986b;
+    padding-left: 60px;
+} 
+
+.introduction .inner ul .one p{
+    display: block;
+    font-size: 12px;
+    line-height: 24px;
+    color: #6f737f;
+    margin-top: -60px;
+    padding-left: 90px;
+    padding-bottom: 20px;
+}
+
+.introduction .inner ul .one .last{
+    display: block;
+    font-size: 60px;
+    color: #c2986b;
+    padding-left: 350px; 
+}
+
+
+/* hot css */
+
+.hot .inner ul{
+    overflow: hidden;
+}
+
+.hot .inner ul li{
+    float: left;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hot .inner ul li div{
+    margin-top: 20px;
+    position: relative;
+}
+
+.hot .inner ul li .two .a{
+    overflow: hidden;
+    padding-bottom: 10px;
+    
+}
+
+.hot .inner ul li .two .a .a1{
+    float: left;
+    font-size: 14px;
+    color: #c2986b;
+}
+
+.hot .inner ul li .two .a .a2{
+    float: right;
+}
+
+.hot .inner ul li .two p{
+    line-height: 24px;
+}
+
+.hot .inner ul li div span p{
+    padding-left: 13px;
+    line-height: 24px;
+    color: #9397a3;
+}
+
+.hot .inner ul li div span{
+    position: absolute;
+    top: 5px;
+}
+
+.hot .inner ul li div span .b{
+    overflow: hidden;
+}
+
+.hot .inner ul li div span .b .a1{
+    float: left;
+    color: #c2986b;
+}
+
+.hot .inner ul li div span .b .a2{
+    float: right;
+}
+
+.hot .inner ul .last div{
+    border-top: 2px solid #c2986b;
+    width: 310px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+}
+
+.hot .inner ul .last .p1{
+    font-size: 20px;
+    color: #6f737f;
+    margin-bottom: 35px;
+}
+
+.hot .inner ul .last .p1 .a1{
+    font-size: 16px;
+    color: #c2986b;
+}
+.hot .inner ul .last p{
+    margin-bottom: 23px;
+}
+
+.hot .inner ul .last p .a1{
+    font-size: 16px;
+    color: #c2986b;
+}
+
+.hot .inner ul .last p .a2{
+    padding-left: 20px;
+}
+
+.hot .inner ul .last p .a2:hover{
+    color: #c2986b;
+}
+
+/* function css */
+
+.function{
+    height: 500px;
+    background: url(../images/functionb.png) no-repeat 50% 50%;
+    overflow: hidden;
+}
+
+.function .inner .functiona{
+    float: left;
+}
+
+.function .inner .functiona .first{
+    padding-top: 90px;
+}
+
+.function .inner .functiona div{
+    position: relative;
+    width: 500px;
+    padding-left: 90px;
+}
+
+.function .inner .functiona div img{
+    padding-bottom: 36px;
+}
+.function .inner .functiona div span{
+    margin-left: 15px;
+    position: absolute;
+}
+
+.function .inner .functiona div span .a1{
+    font-size: 14px;
+    color: #c2986b;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.function .inner .functiona div span p{
+    line-height: 22px;
+    color: #6f737f;
+}
+
+.function .inner .functionb{
+    float: left;
+}
+
+.function .inner .functionb div{
+    background: rgba(0,0,0,.6);
+    margin-top: 175px;
+    margin-bottom: 175px;
+    margin-left: 115px;
+}
+
+.function .inner .functionb div p{
+    padding-top: 50px;
+    line-height: 24px;
+    font-size: 14px;
+    padding-bottom: 50px;
+    color: #b1b6c4;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/* say css */
+
+
+.say .inner{
+    overflow: hidden;
+}
+
+.say .inner .saya{
+    float: left;
+    margin-top: 50px;
+}
+
+.say .inner .saya .first{
+    margin-bottom: 25px;
+}
+
+.say .inner .saya ul li{
+    padding-bottom: 25px;
+}
+
+.say .inner .saya ul .two{
+    padding-bottom: 20px;
+}
+
+.say .inner .saya ul li a{
+    padding-left: 14px;
+    color: #6f737f;
+}
+
+.say .inner .saya ul li a:hover{
+    color: #c2986b;
+}
+
+.say .inner .sayb{
+    float: left;
+    margin-left: 50px;
+}
+
+.say .inner .sayb .one{
+    font-size: 50px;
+    color: #c2986b;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.say .inner .sayb p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #6f737f;
+}
+
+.say .inner .sayb .two .two2{
+    margin-left: 407px;
+}
+
+.say .inner .sayb .three{
+    overflow: hidden;
+}
+
+.say .inner .sayb .three div input{
+    float: left;
+    width: 390px;
+    height: 43px;
+    border: 1px solid #c9c9c9;
+    padding-left: 10px;
+}
+
+.say .inner .sayb .three .three1 input{
+    margin-right: 30px;
+}
+
+.say .inner .sayb .four input{
+    width: 826px;
+    height: 158px;
+    border: 1px solid #c9c9c9;
+    padding-left: 10px;
+}
+
+.say .inner .sayb .five{
+    width: 828px;
+    height: 45px;
+    background: #c2986b;
+    margin-bottom: 50px;
+}
+
+.say .inner .sayb .five p{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 12px;
+    font-size: 14px;
+}
+
+/* foot css*/
+
+.foot{
+    background: #212230;
+}
+
+.foot .inner{
+    overflow: hidden;
+}
+
+.foot .inner .about{
+    float: left;
+}
+
+.foot .inner .about .first{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.foot .inner .about .first a:hover{
+    color: #c2986b;
+}
+
+.foot .inner .about .last{
+    line-height: 24px;
+}
+
+.foot .inner .erweima{
+    float: right;
+    margin-right: 60px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

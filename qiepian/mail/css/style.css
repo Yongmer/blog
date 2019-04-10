@@ -1,0 +1,842 @@
+/* header xs start */
+.logo{
+    text-align: left;
+}
+
+.logo-cont{
+    display: block;
+}
+.logo .logo-cont{
+    margin-top: 5px;
+    margin-bottom: -10px;
+    line-height: 85px;
+    display: inline-block;
+}
+.nav{
+    text-align: right;
+    position: relative;
+}
+.nav-a{
+    position: absolute;
+    display: none;
+    width: 220px;
+    height: 610px;
+    top: 80px;
+    right: -14px; 
+    z-index: 2;
+}
+.nav-cont-a.active{
+    display: none;
+}
+.nav-a.active{
+    display: block;
+}
+.nav-a ul{
+    color: #ffffff;
+    font-size: 2.6rem;
+    text-align: center;
+    padding-bottom: 40px;
+    background-color: rgb(6,11,20,.8);
+}
+.nav-a ul li{
+    padding-top: 40px;
+}
+.nav .nav-cont{
+    margin-top: 5px;
+    margin-bottom: -10px;
+    display: inline-block;
+    line-height: 85px;
+    padding-left: 20px;
+}
+.nav .nav-cont a{
+    margin-left: 25px;
+}
+
+/* header md start */
+.md{
+    display: none;
+}
+.md span{
+    display: inline-block;
+    margin-top: 20px;
+}
+.md ul{
+    overflow: hidden;
+}
+.md ul li{
+    float: left;
+    padding-right: 8px;
+}
+.md ul li p{
+    font-size: 2.2rem;
+    color: #d55d0b;
+    line-height: 85px;
+    padding-right: 10px;
+}
+.md ul li img{
+    margin-top: 30px;
+}
+.md ul .li-first{
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.md ul li button{
+    font-size: 1.4px;
+    margin-top: 30px;
+    padding: 6px 15px;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #dbdbdd;
+    border-radius: 3px;
+}
+.in{
+    display: none;
+} 
+.index{
+    border-bottom: 0.5px solid rgb(236, 236, 236);
+}
+.nav-index{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-index .ul-first .li-first{
+    margin-right: 55px;
+    color: #d55d0b;
+}
+.nav-index ul li{
+    line-height: 60px;
+    margin-right: 35px;
+    float: left;
+    font-size: 1.6rem;
+}
+.nav-index ul li span{
+    padding-left: 3px;
+}
+.nav-index .ul-first li:hover{
+    color: #d55d0b;
+}
+.nav-index .ul-last .li1-first img{
+    margin-right: 5px;
+    margin-bottom: -3px;
+}
+.nav-index .ul-last li{
+    font-size: 1.4rem;
+}
+.nav-index .ul-last .li1-first{
+    margin-right: 35px;
+}
+.nav-index .ul-last .li1-secend span:first-child{
+    margin-right: 20px;
+    border-left: 1px solid rgb(221, 221, 221);
+}
+.nav-index .ul-last .li1-secend span:last-child{
+    margin-left: 20px;
+    border-left: 1px solid rgb(221, 221, 221);
+}
+.nav-index .ul-last .li1-last{
+    position: relative;
+    margin-left: -10px;
+    overflow: hidden;
+}
+.nav-index .ul-last .li1-last .one{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #d55d0b;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+.nav-index .ul-last .li1-last .two{
+    position: absolute;
+    top: -7px;
+    right: 3.5px;
+    color: #ffffff;
+}
+
+/* banner start */
+.ba{
+    background-color: rgb(247, 247, 247);
+}
+.ban{
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+.left-banner{
+    display: none;
+}
+.left-banner a:first-child{
+    display: block;
+    margin-bottom: 10px;
+}
+/* product start */
+.pr{
+    margin-top: 20px;
+}
+.product{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* guarantee start*/
+.g{
+    background-color: rgb(247, 247, 247);
+    padding-top: 10px;
+    padding-bottom: 30px; 
+}
+.g2{
+    display: none;
+}
+.guarantee{
+    text-align: center;
+}
+.guarantee-cont{
+    display: inline-block;
+    margin-bottom: -30px;
+}
+.bz{
+    background-color: rgb(221, 112, 37);
+    padding-top: 64px;
+    padding-bottom: 15px;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+.by{
+    background-color: rgb(244, 175, 117);
+    padding-top: 64px;
+    padding-bottom: 15px;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+.hh{
+    background-color: rgb(137, 157, 182);
+    padding-top: 64px;
+    padding-bottom: 15px;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+.ty{
+    background-color: rgb(140, 202, 197);
+    padding-top: 64px;
+    padding-bottom: 15px;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+/* newest start */
+/* hot1 hot2  与newest */
+
+.n{
+    background-color: rgb(255,255,255);
+}
+.n2{
+    display: none;
+    padding-top: 20px;
+}
+.new{
+    margin: 15px 0;
+}
+.new span{
+    font-size: 2rem;
+    border-left: 3px solid rgb(231,9,31);
+    padding-left: 10px;
+}
+.newest{
+    padding-bottom: 20px;
+}
+.btn-new{
+    width: 50px;
+    height: 26px;
+    font-size: 1.8rem;
+    background-color: #d55d0b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    bottom: -35px;
+}
+.span-first{
+    font-size: 1.4rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.span-last{
+    font-size: 2.4rem;
+    color: #d55d0b;
+}
+
+/* buy start */
+.b2{
+    display: none;
+}
+.b{
+    background-color: rgb(247,247,247);
+}
+.bu{
+    background-color: rgb(242,242,242);
+    margin-top: 40px;
+    border: 1px solid #eeeeee;
+}
+.b2{
+    background-color: rgb(247,247,247);
+    margin-top: 40px;
+    border: 1px solid #eeeeee;
+}
+.p-first{
+    font-size: 1.8rem;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.p-last{
+    font-size: 1.6rem;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #b3b9c8;
+}
+
+.buy span{
+    font-size: 2.6rem;
+    color: rgb(238,53,50);
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.btn-first{
+    background-color: rgb(238,53,50);
+    font-size: 1.8rem;
+    width: 110px;
+    color: #ffffff;
+    line-height: 35px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.btn-last{
+    color: black;
+    font-size: 1.8rem;
+    width: 110px;
+    background-color: #ffffff;
+    line-height: 35px;
+    border: none;
+    outline: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+
+/* hot1 hot2  与newest   见上*/
+
+/* foot1 start */
+.f1-a{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.f1-b{
+    display: none;
+} 
+.foot1 span{
+    position: relative;
+    display: block;
+    line-height: 55px;
+    color: #ffffff;
+    font-size: 1.8rem;
+    padding-left: 5px;
+}
+.foot1 span a.active{
+    position: absolute;
+    right: 5px;
+    font-size: 3rem;
+    font-size: xx-large;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    vertical-align: top;
+}
+.f1-a .foot1 span .a{
+    display: none;
+}
+.f1-a .foot1 .cjwt{
+    background-color: rgb(137, 157, 182);
+}
+.f1-a .foot1 .shfw{
+    background-color: rgb(224, 175, 117);
+}
+.f1-a .foot1 .scgg{
+    background-color: rgb(140, 202, 191);
+}
+.f1-a .foot1 ul{
+    display: none;
+}
+.f1-a .foot1 ul li{
+    line-height: 40px;
+    list-style: inside;
+    padding-left: 20px;
+    font-size: 1.8rem; 
+    color: rgb(102, 102, 102);
+    background-color: rgb(243,243,243);
+    margin-left: -6px;
+    margin-right: -6px;
+}
+.f1-a .foot1 ul .li-first{
+    padding-top: 10px;
+}
+.f1-a .foot1 ul .li-last{
+    padding-bottom: 10px;
+}
+
+/* foot2 start */
+.f2-b{
+    display: none;
+}
+.f2-a{
+    background-color: rgb(91,101,118); 
+}
+.f2-a .foot2 span{
+    position: relative;
+    display:block;
+    line-height: 60px;
+    color: #ffffff;
+    font-size: 1.8rem;
+    padding-left: 15px;
+    border-bottom: 1px solid white;
+}
+.f2-a .foot2 span a{
+    position: absolute;
+    right: 15px;
+    font-size: 3rem;
+    color: #aaaaaa;
+    vertical-align: top;
+    cursor: pointer;
+}
+.f2-a .foot2 ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+}
+.f2-a .foot2 ul.active{
+    display: block;
+}
+.f2-a .foot2 ul li{
+    line-height: 40px;
+    padding-left: 30px;
+    font-size: 1.6rem; 
+    color: #ffffff;
+}
+.f2-a .gzwm span{
+    border-bottom: none;
+}
+.f2-a .gzwm ul .li-first{
+    margin-top: 20px;
+}
+.f2-a .gzwm ul .li-last{
+    margin-bottom: 20px;
+}
+
+/* f3 start */
+.f3-a{
+    padding-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(91,101,118);
+}
+.f3-b{
+    display: none;
+}
+@media screen and (min-width:360px){
+    .logo-cont img{
+        width: 140px;
+        height: auto;
+    } 
+    .nav-cont img{
+        width: 18px;
+        height: auto;
+    }
+    .nav-cont .nav-cont-a img{
+        width: 35px;
+        height: auto;
+    }
+
+    .g a{
+        font-size: 1.4rem;
+    }
+    
+    .b .buy2{
+        display: inline-block;
+    }
+    .b .buy p{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+    }
+    .b .buy .p-first{
+        font-size: 1.4rem;
+    }
+    .b .buy .p-last{
+        font-size: 1.2rem;
+    }
+    .b .buy span{
+        font-size: 2rem;
+    }
+    .b .buy button{
+        font-size: 14px;
+        width: 80px;
+    }
+}
+
+@media screen and (min-width:430px){
+
+    .b .buy2{
+        display: inline-block;
+        
+    }
+    .b .buy .p-first{
+        font-size: 1.8rem;
+    }
+    .b .buy .p-last{
+        font-size: 1.6rem;
+    }
+    .b .buy span{
+        font-size: 2.2rem;
+    }
+    .b .buy button{
+        font-size: 14px;
+        width: 80px;
+    }
+}
+
+@media screen and (min-width:750px){
+    .b .buy2{
+        display: inline-block;
+        
+    }
+    .b .buy .p-first{
+        font-size: 2.2rem;
+    }
+    .b .buy .p-last{
+        font-size: 2rem;
+    }
+    .b .buy span{
+        font-size: 2.8rem;
+    }
+    .b .buy button{
+        font-size: 22px;
+        width: 100px;
+    }
+}
+@media screen and (min-width:1024px){
+
+    /* 头部 */
+    .header .row.xs{
+        display: none;
+    }
+    .md{
+        display: flex;
+        justify-content: space-between;
+    }
+    .in{
+        display: block;
+    }
+    /* bnner */
+    .left-banner{
+        display: block;
+    }
+    /* pr */
+    .product{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .product .product-cont{
+        display: block;
+        overflow: hidden;
+    }
+    .product .product-cont img{
+        width: 290px;
+        height: 350px;
+        -moz-transition: all 0.5s linear;
+        -o-transition:  all 0.5s linear;
+        transition: all 0.5s linear;
+    }
+    .product .product-cont img:hover{
+        -webkit-transform:  scale(1.1) ; 
+        -moz-transform: scale(1.1) ; 
+        -ms-transform: scale(1.1);     
+        -o-transform:  scale(1.1) ; 
+        transform:  scale(1.1);
+    }
+    /* g */
+    .g{
+        display: none;
+    }
+    .g2{
+        display: block;
+        background-color: rgb(245, 245, 245);
+        padding-top: 35px;
+        padding-bottom: 70px;
+    }
+    .guarantee:hover{
+        margin-top:-3px;
+        -moz-transition: all 0.2s linear;
+        -o-transition:  all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+    /* n */
+    .n{
+        display: none;
+    }
+    .n2{
+        display: block;
+    }
+    .n2 .new a{
+        font-size: 2.4rem;
+    }
+    .newest .newest-cont a{
+        display: block;
+        overflow: hidden;
+    }
+    .newest .newest-cont img{
+        -moz-transition: all 0.5s linear;
+        -o-transition:  all 0.5s linear;
+        transition: all 0.5s linear;
+    }
+    .newest .newest-cont img:hover{
+        -webkit-transform:  scale(1.1) ; 
+        -moz-transform: scale(1.1) ; 
+        -ms-transform: scale(1.1);     
+        -o-transform:  scale(1.1) ; 
+        transform:  scale(1.1);
+    }
+    .newest .newest-cont .span-first{
+        font-size: 1.6rem;
+        line-height: 30px;
+    }
+    /* buy */
+    .b{
+        display: none;
+    }
+    .b2{
+        display: block;
+    }
+    .b2 .bu .buy.two span{
+        margin-top: -220px;
+        margin-left: 345px;
+    }
+    .b2 .bu .buy.last{
+        margin-left: 5px;
+    }
+    .b2 .bu .first{
+        margin-right: 15px;
+    }
+    .b2 .bu .p-first{
+        padding-top: 70px;
+        padding-bottom: 5px;
+    }
+    .b2 .bu .p-last{
+        font-size: 1.2rem;
+        line-height: 20px;
+    }
+    .b2 .bu span{
+        display: block;
+        margin-top: 5px; 
+    }
+    .b2 .bu button{
+        margin-top: 5px; 
+    }
+    /* hot */
+    .h .new.hot1{
+        font-size: 2.4rem;
+        padding-top: 40px;
+        padding-bottom: 25px;
+        margin-left: 10px;
+    }
+    .h .new.hot1 span{
+        display:block;
+        font-size: 2.8rem;
+        border-left: 3px solid #d55d0b;
+    }
+    .h2 .hot{
+        border-top: 1px solid #eeeeee;
+        padding-top: 30px;
+        margin-bottom: 60px;
+    }
+    .h2 .new.hot1{
+        display: none;
+    }
+
+    /* f1 */
+
+    .f1-a{
+        display: none;
+    } 
+    .f1-b{
+        display: block;
+        background-color: #f7f7f7;
+    }
+    .f1-b ul{
+        display: block;
+    }
+    .f1-b .foot1 div span{
+        color: black;
+        font-size: 2rem;
+        margin-top: 40px;
+    }
+    .f1-b .foot1 div span a{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        margin-left: 30px;
+    }
+    .f1-b .foot1 .cjwt span a{
+        background-color: rgb(137, 157, 182);
+    }
+    .f1-b .foot1 .shfw span a{
+        background-color: rgb(224, 175, 117);
+    }
+    .f1-b .foot1 .scgg span a{
+        background-color: rgb(140, 202, 191);
+    }
+    .f1-b .foot1 div ul li{
+        list-style: inside;
+        padding-left: 20px;
+        color: #ffffff;
+        line-height: 35px;
+        position: relative;
+        overflow: hidden;
+    }
+    .f1-b .foot1 div ul li:hover{
+        text-decoration:underline;
+    }
+    .f1-b .foot1 div ul .li-first{
+        padding-top: 15px;
+    }
+    .f1-b .foot1 div ul .li-last{
+        padding-bottom: 15px;
+        margin-bottom: 55px;
+    }
+    .f1-b .foot1 div ul li img{
+        position: absolute;
+        right: 30px;
+    }
+    .foot1 .cjwt ul li{
+        background-color: rgb(137, 157, 182);
+    }
+    .foot1 .shfw ul li{
+        background-color: rgb(224, 175, 117);
+    }
+    .foot1 .scgg ul li{
+        background-color: rgb(140, 202, 191);
+    }
+
+    /* f2 */
+    .f2-a{
+        display: none;
+    }
+    .f2-b{
+        display: block;
+    }
+    .f2-b .left div{
+        float: left;
+        margin-right: 100px;
+        margin-bottom: 25px;
+    }
+    .f2-b .left div:last-child{
+        margin-right: 0px;
+    }
+    .f2-b .left div span{
+        display: inline-block;
+        font-size: 1.6rem;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    .f2-b .left div ul li{
+        line-height: 25px;
+    }
+    .f2-b .right{
+        border-left: 1px solid rgb(234, 234, 234);
+        height: 130px;
+        margin-top: 40px;
+    }
+    .f2-b .right ul{
+        float: left;
+        margin-left: 70px;
+        margin-right: 15px;
+        text-align: right;
+    }
+    .f2-b .right img{
+        float: left;
+    }
+    .f2-b .right ul .two{
+        font-size: 2.8rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .f2-b button{
+        padding: 5px 15px;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        background-color: rgb(16,51,162);
+    }
+    /* f3 */
+    .f3-a{
+        display: none;
+    }
+    .f3-b{
+        display: block;
+        border-top: 1px solid rgb(235, 235, 235);
+        overflow: hidden;
+    }
+    .f3-b div{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        float: left;
+    }
+    .f3-b ul{
+        display: inline-block;
+        overflow: hidden;
+        font-size: 1.2rem;
+    }
+    .f3-b .ul-first li{
+        float: left;
+        border-right: 1px solid #999999;
+        padding: 0 15px;
+    }
+    .f3-b .ul-first .li-first{
+        padding-left: 0;
+    }
+    .f3-b .ul-first .li-last{
+        padding-right: 0px;
+        border: none;
+    }
+    .f3-b .first p{
+        font-size: 1rem;
+        padding-top: 5px;
+    }
+    .f3-b .ul-last li{
+        float: left;
+    }
+    .f3-b .first{
+        margin-left: 25px;
+    }
+    .f3-b .last{
+        float: right;
+    }
+    .f3-b .last img{
+        display: inline-block;
+        margin-bottom: -15px;
+    }
+    .f3-b .last span{
+        display: inline-block;
+    }
+    .f3-b .last span:last-child{
+        padding-left: 28px;
+    }
+    .f3-b .last li{
+        margin-left: 20px;
+    }
+}
