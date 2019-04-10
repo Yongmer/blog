@@ -1,0 +1,450 @@
+/*reset css*/
+  *{
+    margin: 0;
+    padding: 0;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+
+    a img{
+        border: none;
+    }
+
+    input,button,textarea,select {
+        font-family: inherit;
+        font-size: inherit;
+    }
+
+    body{
+        font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+        font-size: 14px;
+        color: #333;
+    }
+
+/* header css */
+
+    .inner{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inner::after{
+        display: block;
+        content: " ";
+        font-size: 0;
+        line-height: 0;
+        visibility: hidden;
+    } /*万能清除浮动*/
+
+    .header{
+        overflow: hidden;
+    }
+
+    .header .logo{
+        width: 140px;
+        height: 45px;
+        float: left;
+        margin-top: 21px;
+    }
+
+    .header .nav{
+        float: right;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .header .nav ul{
+        overflow: hidden;
+    }
+
+    .header .nav ul li{
+        float: left;
+    }
+
+    .header .nav ul li a{
+        display: block;
+        line-height: 34px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header .nav ul li a b{
+        font-weight: normal;
+        display: block;
+        border-top: 2px solid transparent;
+    }
+
+    .header .nav ul li a.active b,
+    .header .nav ul li a:hover b{
+        border-color: #1d72b1;
+        color: #1d72b1
+    }
+    .header .nav ul li a.tel{
+        margin-left: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #1d72b1;
+        color: white;
+        line-height: 36px;
+        border-radius: 5px;
+    }
+
+ /* slide css */
+
+     .slide{
+        height: 500px;
+        background: url(../images/slide.png) no-repeat 50% 50%;
+     }
+
+     .slide h1{
+        text-align: center;
+        font-size: 36px;
+        color: rgba(255, 255, 255, .91);
+        padding-top: 145px;
+     }
+
+     .slide p{
+        text-align: center;
+        font-size: 18px;
+        color: rgba(255, 255, 255, .91);
+        line-height: 30px;
+        padding-top: 24px;
+        margin-bottom: 52px;
+     }
+
+     .slide div{
+        text-align: center;
+        width: 140px;
+        height: 29px;
+        outline: 2px solid #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 11px;
+     }
+     
+     .slide div a{
+        color: #ffffff;
+        line-height: 18px;
+     }
+
+     .about-a{
+        padding-top: 68px;
+        padding-bottom: 68px;
+     }
+
+     .about-a h2{
+        text-align: center;
+        font-size:24px;
+        font-weight: normal;
+        color: #222;
+        padding-bottom: 15px;
+     }
+
+     .about-a p{
+        text-align: center;
+        line-height: 24px;
+        margin-bottom: 40px;
+     }
+
+     .about-a ul{
+        overflow: hidden;
+     }
+
+     .about-a ul li{
+        float: left;
+        margin-right: 75px;
+     }
+
+     .about-a ul li.last{
+        margin-right: 0;
+    }
+
+
+     .about-a ul li a{
+        display: block;
+     }
+
+     .about-a ul li img{
+        display: block;
+     }
+
+     .about-a ul li a:hover{
+        color:  #1d72b1;
+     }
+
+     .about-a ul li a.title{
+        line-height: 50px;
+        text-align: center;
+     }
+
+/* new css */
+     .new{
+        background: #e5e5e5;
+        height: 440px;; 
+     }
+     .new ul{
+        overflow: hidden;
+        padding-top: 65px;
+     }
+
+     .new ul li.first{
+        float:left;
+     }
+
+     .new ul li.last{
+        float:left;
+        width: 624px;
+        height: 309px;
+        background: #ffffff;
+     }
+
+     .new ul li.last p a{
+      color: #1d72b1;
+     }
+
+     .new ul li h2{
+        text-align: center;
+        font-size: 24px;
+        font-weight: normal;
+        padding-top: 40px;
+        padding-bottom: 20px;
+     }
+
+     .new ul li p{
+        text-align: center;
+        line-height: 30px;
+        padding-bottom: 24px;
+     }
+
+
+     .new ul li .new-a{
+        text-align: center;
+        width: 100px;
+        height: 25px;
+        outline:2px solid #1d72b1;
+        color: #1d72b1;
+        padding-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+
+/* cases css */
+
+     .cases{
+      padding-top: 50px;
+      padding-bottom: 50px;
+     }
+
+    .cases h2{
+      text-align: center;
+      padding-bottom:22px;
+      font-weight: normal;
+    }
+
+    .cases p{
+      text-align: center;
+      padding-bottom:44px;
+    }
+
+    .cases ul{
+      overflow: hidden;
+    }
+
+    .cases li{
+      float: left;
+      margin-right: 58px;
+    }
+
+    .cases li:nth-child(4n){
+      margin-right: 0px;
+    }
+
+    .cases li a{
+      display: block;
+    }
+
+    .cases li a.title{
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      height: 35px;
+    }
+   
+    /* we css */
+
+   .we{
+      background: url(../images/we.png);
+      height: 233px;
+   }
+
+   .we .inner{
+      text-align: center;
+   }
+
+   .we .inner h2{
+      padding-top: 40px;
+      padding-bottom: 20px;
+      font-weight: normal;
+      color: #ffffff;
+   }
+
+   .we .inner p{
+      padding-bottom: 40px;
+      color: rgba(255, 255, 255, .91);
+   }
+
+   .we .inner .we-a{
+      text-align: center;
+      width: 100px;
+      height: 25px;
+      border: 1.5px solid #ffffff;
+      color: #ffffff;
+      padding-top: 5px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+
+/* foot css*/
+
+   .foot{
+      background: #303030;
+   }
+
+   .inner{
+      overflow: hidden;
+   }
+
+   .inner .foot-a,.foot-b,.foot-c,.foot-d{
+      float: left;
+      padding-right: 40px;
+   }
+
+   .inner div h3{
+      font-weight: normal;
+      color: rgba(255, 255, 255, .9);
+      padding-top: 55px;
+      padding-bottom: 40px;
+   }
+
+   .inner .foot-a p{
+      color: rgba(255, 255, 255, .7);
+      padding-bottom: 110px;
+      line-height: 24px;
+   }
+
+   .inner .foot-a p a{
+      color: #1d72b1;
+      
+   }
+
+   .inner .foot-b div{
+      width:266px;
+      height: 50px;
+      outline: 1px solid #4f4f4f;
+      position: relative;
+   }
+
+   .inner .foot-b .foot-b2,.foot-b3{
+      margin-top: 38px;  
+   }
+   .inner .foot-b .foot-b3{
+      margin-bottom: 60px;
+   }
+   .inner .foot-b div img{
+      position: absolute;
+      top:-19px;
+      left: 114px;
+   }
+
+   .inner .foot-b div a{
+      display:block;
+      color: rgba(255, 255, 255, .7);
+      text-align: center;
+      padding-top: 22px; 
+   }
+
+   .inner .foot-c{
+   }
+
+   .inner .foot-c li{
+      overflow: hidden;
+   }
+   .inner .foot-c li span{
+      width: 0;
+      height: 0;
+      float: left;
+      border-top: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left:  5px solid #ffffff;
+      margin-top: 5px;
+   }
+
+   .inner .foot-c .list a{
+      color: rgba(255, 255, 255, .7);
+      float: left;
+      padding-left: 5px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+   }
+
+   .inner .foot-d{}
+
+   .inner .foot-d li{
+      overflow: hidden;
+   }
+
+   .inner .foot-d li .number{
+      float: left;
+      width: 50px;
+      height: 50px;
+      background: #1f689f;
+      margin-bottom: 20px;
+      margin-right: 10px;
+   }
+
+   .inner .foot-d li .number .a1{
+      font-size: 24px;
+      color: rgba(255, 255, 255, 1); 
+      padding-left: 10px;
+      padding-top: 4px;
+   }
+
+   .inner .foot-d li .number .a2{
+      font-size: 14px;
+      color: rgba(255, 255, 255, 1); 
+   }
+
+   .inner .foot-d li a{
+      float: left;
+      color: rgba(255, 255, 255, .7);
+      line-height: 24px;
+      padding-left: 10px;
+      padding-top: -10px;
+   }
+
+/* foots strat*/
+
+.foots{
+   background: #383838;
+}
+
+.foots p{
+   padding-top:28px;
+   padding-bottom: 28px;
+   color: rgba(255, 255, 255, .7);
+   text-align: center; 
+}
+
+.foots p a{
+   color: #1d72b1;
+}
